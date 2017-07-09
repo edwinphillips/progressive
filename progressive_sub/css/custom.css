@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+/* Primary Menu */
+.header .primary {
+  float: right;
+}
+
+.header .logo img {
+  width: auto;
+}
+
