@@ -9,3 +9,83 @@
   width: auto;
 }
 
+
+/* Quote form - horizontal band */
+
+#block-webform-client-block-162 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+#block-webform-client-block-162 .webform-component--i-want-to-study {
+    float: left;
+    width: 20%;
+}
+
+#block-webform-client-block-162 .webform-component--from {
+    float: left;
+    margin-left: 5%;
+    width: 20%;
+}
+
+#block-webform-client-block-162 .webform-component--for {
+    float: left;
+    margin-left: 5%;
+    width: 20%;
+}
+
+#ui-datepicker-div {
+    background: #1f82ba;
+}
+
+/* Ask a question form block */
+
+#block-webform-client-block-164 .title-box.title-h1 {
+    margin-bottom: 2.5%;
+    margin-left: 7.5%;
+    margin-top: 2.5%;
+}
+
+#webform-client-form-164 {
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+
+#webform-client-form-164 .webform-component--first-name {
+    float: left;
+    width: 48.75%;
+}
+
+#webform-client-form-164 .webform-component--last-name {
+    float: left;
+    margin-left: 2.5%;
+    width: 48.75%;
+}
+
+#webform-client-form-164 .webform-component--email {
+    float: left;
+    width: 31.66%;
+}
+
+#webform-client-form-164 .webform-component--phone {
+    float: left;
+    margin-left: 2.5%;
+    width: 31.66%;
+}
+
+#webform-client-form-164 .webform-component--nationality {
+    float: left;
+    margin-left: 2.5%;
+    width: 31.66%;
+}
+
+#webform-client-form-164 .form-actions {
+    float: right;
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+}
+
+.webform-container-inline.webform-datepicker  div.form-item.form-type-select {
+    display: none;
+}
