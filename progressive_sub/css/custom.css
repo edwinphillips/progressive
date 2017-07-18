@@ -1,14 +1,31 @@
 @charset "UTF-8";
 
+body {
+    color: #333;
+    font-weight: 300;
+}
+
+p, ul {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+p, ul, .title-box .title, h1, h2, h3, h4, h5, h6, .post .entry-title,
+footer aside header .title, footer aside .title-box .title, .page-header .title, label {
+    font-weight: 300;
+}
+
+
 /* Primary Menu */
 .header .primary {
-  float: right;
+    float: right;
 }
 
 .header .logo img {
-  width: auto;
+    width: auto;
 }
 
+/* Homepage */
 
 /* Quote form - horizontal band */
 
@@ -16,7 +33,6 @@
     margin-left: 5%;
     margin-right: 5%;
 }
-
 
 #block-webform-client-block-162 .webform-component--i-want-to-study {
     float: left;
@@ -38,6 +54,42 @@
 #ui-datepicker-div {
     background: #1f82ba;
 }
+
+#webform-client-form-162 select#edit-submitted-i-want-to-study {
+    display: inline-block !important;
+}
+
+#webform-client-form-162 select#edit-submitted-i-want-to-study + a.selectBox-dropdown {
+    display: none !important;
+}
+
+#webform-client-form-162 select#edit-submitted-for {
+    display: inline-block !important;
+}
+
+#webform-client-form-162 select#edit-submitted-for + a.selectBox-dropdown {
+    display: none !important;
+}
+
+#webform-client-form-162 .form-actions .webform-submit {
+    margin-top: 26px;
+    margin-left: 100px;
+}
+
+/* Brighton */
+
+#brighton-container.container {
+    width: 100% !important;
+}
+
+/*
+.brighton-column {
+    max-width: 270px;
+    background-color: #fff;
+    padding: 0;
+    margin-right: 2.5%;
+}
+*/
 
 /* Ask a question form block */
 
