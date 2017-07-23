@@ -27,57 +27,6 @@ footer aside header .title, footer aside .title-box .title, .page-header .title,
 
 /* Homepage */
 
-/* Quote form - horizontal band */
-
-#block-webform-client-block-162 {
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-#block-webform-client-block-162 .webform-component--i-want-to-study {
-    float: left;
-    width: 20%;
-}
-
-#block-webform-client-block-162 .webform-component--from {
-    float: left;
-    margin-left: 5%;
-    width: 20%;
-}
-
-#block-webform-client-block-162 .webform-component--for {
-    float: left;
-    margin-left: 5%;
-    width: 20%;
-}
-
-#ui-datepicker-div {
-    background: #1f82ba;
-}
-
-#webform-client-form-162 select#edit-submitted-i-want-to-study {
-    display: inline-block !important;
-}
-
-#webform-client-form-162 select#edit-submitted-i-want-to-study + a.selectBox-dropdown {
-    display: none !important;
-}
-
-#webform-client-form-162 select#edit-submitted-for {
-    display: inline-block !important;
-}
-
-#webform-client-form-162 select#edit-submitted-for + a.selectBox-dropdown {
-    display: none !important;
-}
-
-#webform-client-form-162 .form-actions .webform-submit {
-    margin-top: 26px;
-    margin-left: 100px;
-}
-
-/* Brighton */
-
 #brighton-container.container {
     width: 100% !important;
 }
