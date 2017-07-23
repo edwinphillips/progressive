@@ -25,6 +25,14 @@ footer aside header .title, footer aside .title-box .title, .page-header .title,
     width: auto;
 }
 
+
+/* Custom */
+
+.ca-width-100 img {
+    width: 100%;
+}
+
+
 /* Homepage */
 
 #brighton-container.container {
