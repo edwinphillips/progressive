@@ -6,8 +6,8 @@ $one_page = isset($layout['settings']['one_page']) && $layout['settings']['one_p
     <div class="row">
       <div class="col-xs-10 col-sm-10">
         <?php
-        //$block = gtranslate_block_view();
-        //print render($block['content']);
+        $block = gtranslate_block_view();
+        print render($block['content']);
         ?>
       </div>
       <div class="col-xs-2 col-sm-2">
