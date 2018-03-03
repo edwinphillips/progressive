@@ -12,7 +12,7 @@ $one_page = isset($layout['settings']['one_page']) && $layout['settings']['one_p
       </div>
       <div class="col-xs-2 col-sm-2">
         <div id="loginregisterlinks">
-          <a href="/user/login">Login</a> / <a href="/user/register">Register</a>
+          <a href="/user/login">Login</a>
         </div>
       </div>
     </div>

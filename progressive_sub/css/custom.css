@@ -113,21 +113,26 @@ footer aside header .title, footer aside .title-box .title, .page-header .title,
     display: none;
 }
 
-/* Login page */
-
-.fixed-header.fixed-top .header {
-  /* margin-top: 0; */
-}
-
 #loginregisterlinks {
     color: #ffffff;
     padding-top: 7px;
+    text-align: right;
 }
 
 #loginregisterlinks a {
     color: #ffffff;
 }
 
-.page-login-promo #main {
-    padding: 30px 0 30px;
+/* Login page */
+
+.page-user.fixed-header.fixed-top .header {
+    margin-top: 0;
+}
+
+.page-user .page-box #main {
+    padding-top: 30px;
+}
+
+#user-register-form .captcha {
+    margin-bottom: 20px;
 }
