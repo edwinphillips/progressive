@@ -112,3 +112,13 @@ footer aside header .title, footer aside .title-box .title, .page-header .title,
 .webform-container-inline.webform-datepicker  div.form-item.form-type-select {
     display: none;
 }
+
+/* Login page */
+
+.fixed-header.fixed-top .header {
+  margin-top: 0;
+}
+
+.page-login-promo #main {
+  padding: 0 0 30px;
+}
