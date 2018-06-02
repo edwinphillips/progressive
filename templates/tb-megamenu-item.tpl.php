@@ -3,8 +3,8 @@
   $href = strpos($item['link']['href'], "_anchor_") !== false ? str_replace("http://_anchor_", '#', $item['link']['href']) : url($item['link']['href'], $item['link']['options']);
   $href = str_replace('/#', '#', $href);
 ?>
-<li class="<?php print $classes;?>">
-  <a href="<?php print in_array($item['link']['href'], array('<nolink>')) ? "#" : $href;?>" class="<?php print implode(" ", $a_classes);?>">
+<li class="<?php print $classes;?>" <?php print $attributes;?>>
+  <a href="<?php print in_array($item['link']['href'], array('<nolink>')) ? "#" : $href;?>" <?php echo drupal_attributes($item['link']['#attributes']); ?>>
     <?php if(!empty($item_config['xicon'])) : ?>
       <i class="fa <?php print $item_config['xicon'];?>"></i>
     <?php endif;?>    

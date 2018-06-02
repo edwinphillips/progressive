@@ -1535,3 +1535,34 @@ body.page-user-password .header-three{
 .product .product-hover ul {
   max-height: 180px;
 }
+
+li.col-md-{
+  width: 100%;
+  display: block;
+  clear: both;
+  padding-top: 0;
+  padding-left: 20px;
+}
+li.col-md- ul{
+  list-style: none;
+}
+
+.form-type-managed-file .help-block{
+  margin-top: 0;
+}
+
+#block-system-main .node-form .selectBox,
+#block-system-main .node-form .form-control{
+  width: auto;
+}
+
+
+@media (max-width: 767px){
+  li.tb-megamenu-item.level-2 ul.nav-child{
+    display:none !important;
+  }
+
+  li.tb-megamenu-item.level-2.active ul.nav-child{
+    display:block !important;
+  }
+}

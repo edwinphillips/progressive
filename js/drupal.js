@@ -33,6 +33,14 @@
     }
   }
 
+  Drupal.behaviors.active_menu_expand = {
+    attach: function (context, settings) {
+      setTimeout(function(){
+        $('ul.menu .active').parent('.sub').show();
+      }, 1000);
+    }
+  };
+
   Drupal.behaviors.rotate_blocks = {
     attach: function (context, settings) {
       if(!navigator.userAgent.match(/iPad|iPhone|Android/i)) {

@@ -25,7 +25,7 @@
 $image = _get_node_field($row, 'field_field_images');
 $path = isset($image[0]) ? $image[0]['raw']['uri'] : '';
 ?>
-<?php print theme('image_style', array('style_name' => 'blog_84x84', 'path' => $path, 'attributes' => array('data-appear-animation' => 'rotateIn', 'class' => array('image', 'img-circle')))); ?>
+<?php print theme('image_style', array('style_name' => 'blog_84x84', 'alt' => $image[0]['raw']['alt'], 'path' => $path, 'attributes' => array('data-appear-animation' => 'rotateIn', 'class' => array('image', 'img-circle')))); ?>
 <div class="meta">
   <?php print $fields['name']->content; ?>, 
   <?php print $fields['created']->content; ?>

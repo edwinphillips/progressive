@@ -278,3 +278,7 @@ blockquote {
     width: auto !important;
   }
 }
+
+.field-name-field-slider-body{
+  text-align: right;
+}

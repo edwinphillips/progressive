@@ -15,7 +15,7 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <link rel='stylesheet' href="<?php print base_path() . path_to_theme(); ?>/css/ie/ie8.css">
   <![endif]-->
-
+  <?php if (stripos($_SERVER['HTTP_HOST'], "nikadevs") !== FALSE && module_exists('nikadevs_dev')) include DRUPAL_ROOT . '/' . drupal_get_path('module', 'nikadevs_dev') . '/g_analytics/progressive.js'; ?>
 </head>
 <body class="fixed-header <?php print $classes; ?>"<?php print $attributes; ?>>
 
